@@ -1,0 +1,20 @@
+Index Charts: interactive line chart. 
+Stacked graphs depict aggregate patterns and often support drill-down into a subset of individual series. 
+small multiples: Showing each series in its own chart. 
+Horizon graphs: Are a technique for increasing the data density of a time-series view while preserving resolution. 
+Stem-and-leaf plot: The plot typically bins numbers according to their first significant digit.
+Q-Q plots compare two probability distributions. 
+scatter plot matrix (or SPLOM). SPLOMs enable visual inspection of correlations between any pair of variables. 
+Parallel coordinates (||-coord) repeatedly plot the data on parallel axes and then connect the corresponding points with lines. 
+Flow maps: Stroked lines on top of a geographic map.
+Choropleth map: A standard approach to communicating this data is to use a color encoding of the geographic area. 
+Graduated Symbol Maps: Places symbols over an underlying map. This approach avoids confounding geographic area with data values and allows for more dimensions to be visualized (e.g., symbol size, shape, and color). In addition to simple shapes like circles, graduated symbol maps may use more complicated glyphs such as pie charts. 
+Cartograms distort the shape of geographic regions so that the area directly encodes a data variable. 
+A node-link diagram: The word "tree" is used interchangeably with "hierarchy".
+Dendrogram: Places leaf nodes of the tree at the same level. Using polar rather than Cartesian coordinates.
+Indented trees: used ubiquitously by operating systems to represent file directories.
+Adjacency diagrams are space-filling variants of node-link diagrams.
+Enclosure diagrams are also space-filling, using containment rather than adjacency.
+Force-Directed Layout: graph as a physical system: nodes are charged particles that repel each other, while links are dampened springs that pull related nodes together. 
+Arc diagram uses a one-dimensional layout of nodes, with circular arcs to represent links.
+matrix: each value in row i and column j in the matrix corresponds to the link from node i to node j.
