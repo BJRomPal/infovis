@@ -1,0 +1,20 @@
+Index Charts. 
+Stacked graphs.
+small multiples.
+Horizon graphs.
+Stem-and-leaf plot.
+Q-Q plots. 
+scatter plot matrix.
+Parallel coordinates. 
+Flow maps.
+Choropleth map.
+Graduated Symbol Maps.
+Cartograms.
+A node-link diagram.
+Dendrogram.
+Indented trees.
+Adjacency diagrams.
+Enclosure diagrams.
+Force-Directed Layout.
+Arc diagram.
+matrix.
