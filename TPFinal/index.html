@@ -77,6 +77,28 @@
         })(vegaEmbed);
 
     </script>
+    <p></p>
+    <div id="vis5"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}, "header": {"labelColor": "#546837", "labelFontSize": 14, "titleColor": "#1B519A", "titleFontSize": 16}, "title": {"anchor": "middle", "color": "#1B519A", "fontSize": 18}}, "data": {"name": "data-25a77ee857f7644a265c7628d312a25a"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "Tipo Voto"}, "tooltip": [{"type": "quantitative", "field": "Cantidad"}], "x": {"type": "quantitative", "field": "Cantidad"}, "y": {"type": "ordinal", "field": "Tipo Voto", "sort": "-x"}}, "height": 100, "title": "Comparaci\u00f3n del voto positivo con blanco y nulo", "width": 450, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-25a77ee857f7644a265c7628d312a25a": [{"Tipo Voto": "Positivos", "Cantidad": 1579504}, {"Tipo Voto": "Blanco y Nulo", "Cantidad": 176027}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis5", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+    
     <img src="corteBoleta.jpg">
     <hr style="color: #0056b2;" />
     <img src="Participacion.jpg">
